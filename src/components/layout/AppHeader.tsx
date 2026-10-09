@@ -26,13 +26,18 @@ export const AppHeader: React.FC<AppHeaderProps> = ({ onOpenPaywall, onOpenGoalC
               AI 2.0
             </span>
           </div>
-          <button 
-            onClick={onOpenGoalCompiler}
-            className="text-xs text-slate-400 hover:text-slate-200 transition-colors flex items-center gap-1 truncate max-w-[180px]"
-          >
-            <span>{currentGoal?.title || 'Set Primary Goal'}</span>
-            <span className="text-brand-500 text-[10px]">⇄</span>
-          </button>
+          <div className="flex items-center gap-1.5 text-[11px] text-slate-400">
+            <span className="font-medium text-slate-300">Created by <strong className="text-white font-semibold">Pradeepto Dixit</strong></span>
+            <span className="text-slate-600">•</span>
+            <button 
+              onClick={onOpenGoalCompiler}
+              className="text-slate-400 hover:text-slate-200 transition-colors flex items-center gap-1 truncate max-w-[130px]"
+              title="Change Goal"
+            >
+              <span className="truncate">{currentGoal?.title || 'Set Goal'}</span>
+              <span className="text-brand-500 text-[10px]">⇄</span>
+            </button>
+          </div>
         </div>
       </div>
 

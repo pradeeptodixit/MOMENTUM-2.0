@@ -63,7 +63,7 @@ export const MissionHeroCard: React.FC = () => {
         <div className="mt-4 bg-brand-950/20 border border-brand-500/20 rounded-xl p-3 flex items-start gap-2.5">
           <Sparkles className="w-4 h-4 text-brand-400 mt-0.5 flex-shrink-0" />
           <p className="text-xs text-slate-300 leading-relaxed font-sans">
-            <span className="font-semibold text-brand-400">Adaptive Voice:</span> {currentMission.aiCollaboratorNote}
+            <span className="font-semibold text-brand-400">Adaptive Engine by Pradeepto Dixit:</span> {currentMission.aiCollaboratorNote}
           </p>
         </div>
       )}

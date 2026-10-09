@@ -35,7 +35,9 @@ export const StripeWebLanding: React.FC = () => {
           </div>
           <div>
             <div className="text-base font-extrabold tracking-wider text-white">MOMENTUM AI 2.0</div>
-            <div className="text-xs text-slate-400 font-mono">The Adaptive Human Execution Engine</div>
+            <div className="text-xs text-slate-400 font-mono">
+              Created by <span className="text-brand-400 font-semibold">Pradeepto Dixit</span> • The Adaptive Human Execution Engine
+            </div>
           </div>
         </div>
 
@@ -50,9 +52,9 @@ export const StripeWebLanding: React.FC = () => {
 
       {/* Hero Section */}
       <div className="text-center mt-12 mb-10 max-w-3xl mx-auto">
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-500/10 border border-brand-500/20 text-brand-400 text-xs font-mono font-bold mb-4">
+        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-500/10 border border-brand-500/20 text-brand-400 text-xs font-mono font-bold mb-4">
           <Flame className="w-3.5 h-3.5 fill-current" />
-          <span>REVENUECAT SHIPATON 2026 HERO CANDIDATE</span>
+          <span>CREATED BY PRADEEPTO DIXIT • REVENUECAT SHIPATON 2026</span>
         </div>
 
         <h1 className="text-4xl sm:text-5xl font-black text-white tracking-tight leading-tight">
@@ -69,8 +71,13 @@ export const StripeWebLanding: React.FC = () => {
 
       {/* Interactive Goal Compiler Simulator Box */}
       <div className="p-6 rounded-3xl bg-surface-cardElevated border border-surface-border shadow-2xl max-w-2xl mx-auto mb-16">
-        <div className="text-xs font-mono font-bold text-brand-400 uppercase tracking-wider mb-2">
-          ⚡ Interactive Live Demo
+        <div className="flex items-center justify-between mb-2">
+          <div className="text-xs font-mono font-bold text-brand-400 uppercase tracking-wider">
+            ⚡ Interactive Goal Compiler
+          </div>
+          <div className="text-xs font-mono text-slate-400">
+            Engineered by <span className="text-slate-200 font-bold">Pradeepto Dixit</span>
+          </div>
         </div>
         <h3 className="text-lg font-bold text-white">Test the Goal Compiler in 5 Seconds:</h3>
 
